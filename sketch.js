@@ -19,7 +19,7 @@ cnv =createCanvas(800, 830);
   text('Wait for image', width/2, 10, 100);
   button = createButton("Click for new image")
   button.mousePressed(doit)
-  button.position(cnv.position.x,1050)
+  button.position(cx,cy+cnv.height+30)
   button.style('font-size', '30px');
   //output.position(button.x,button.y+60)
 }
@@ -35,7 +35,6 @@ async function getStreet(){
    
   img = await createImg("https://image.pollinations.ai/prompt/city%20sidwalk%20bricks%20painted%20with%20warning%20%20in%20chinese%20do%20not%20park%20here%20and%20a%20stencil%20image%20of%20of%20a%20bicycle?width=800&height=800&nologo=true&seed="+floor(random(255)),"street scene")
  img.position(cx,cy)
- button.html("click for new image")
  //cnv.image(img,0,0)
    
 }
