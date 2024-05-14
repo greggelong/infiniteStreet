@@ -15,7 +15,7 @@ cnv =createCanvas(800, 830);
   text('Wait for image', width/2, 10, 100);
   button = createButton("Click for new image")
   button.mousePressed(doit)
-  button.position(cnv.width/2,cnv.height+50)
+  button.position(cnv.position.x,1050)
   button.style('font-size', '30px');
   //output.position(button.x,button.y+60)
 }

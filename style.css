@@ -6,12 +6,13 @@ html, body {
     margin: 0;
     display: flex;
     background-color: black;
+    color:white;
   
     /* This centers our sketch horizontally. */
     justify-content: center;
   
-    /* This centers our sketch vertically. 
-    align-items: center;*/
+    /* This centers our sketch vertically. */
+    align-items: center;
 
     /* overflow-y: hidden; Hide vertical scrollbar */
    /* overflow-x: hidden;  Hide horizontal scrollbar */
