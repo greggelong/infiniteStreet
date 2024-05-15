@@ -34,7 +34,7 @@ cnv =createCanvas(800, 830);
 
 async function getStreet(){
    
-  img = await createImg("https://image.pollinations.ai/prompt/city%20sidwalk%20bricks%20painted%20with%20warning%20%20in%20chinese%20do%20not%20park%20here%20and%20a%20stencil%20image%20of%20of%20a%20bicycle?width=800&height=800&nologo=true&seed="+floor(random(255)),"street scene")
+  img = await createImg("https://image.pollinations.ai/prompt/city%20sidwalk%20bricks%20painted%20with%20warning%20%20in%20chinese%20do%20not%20park%20here%20and%20a%20stencil%20image%20of%20of%20a%20bicycle?width=800&height=800&nologo=true&seed="+floor(random(1026)),"street scene")
  img.position(cx,cy)
  //cnv.image(img,0,0)
    
